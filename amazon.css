@@ -1,0 +1,204 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    height: 50px;
+    width: 125px;
+    display:inline-block;
+}
+#adress{
+    height: 50px;
+    width: 179px;
+    margin-left: 0px;
+    display:inline-block;
+}
+img{
+width: 100%;
+}
+.toolbar{
+    height: 50px;
+    background-color: #0f1111;
+    margin: 0;
+    border: 2px solid #0f1111;
+    display: flex;
+    align-items:center;
+
+}
+.toolbar div {
+    height: 50px;
+    margin: 0; /* Ensure no margin */
+}
+
+#Username{
+display:inline-block;
+width:650px;
+height: 50px;
+border-radius: 5px ;
+font-size:18px;
+}
+#search{
+
+    width: 700px;
+    height: 50px;
+    margin-left:50px;;
+    display: flex;
+    align-items:center;
+}
+#profession {
+    margin-left: 0; 
+    height: 50px; 
+    border: 2px solid #0f1111;
+    border-radius: 5px;
+    color:white;
+    background-color: #0f1111;   
+}
+p{
+    font-size:17px;
+    margin-left: 45px;
+    color: white;
+}
+.hamburger {
+    display: flex;
+    flex-direction: column; /* Stack the lines vertically */
+    justify-content: center; /* Center vertically */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    height: 50px; /* Match toolbar height */
+    margin-left: 10px; /* Space from other elements */
+    
+}
+
+.line {
+    width: 25px; /* Width of each line */
+    height: 3px; /* Height of each line */
+    background-color: #fff; /* Color of the lines */
+    margin: 2px 0; /* Space between lines */
+}
+#secondline{
+    height: 44px;
+    background-color: #0f1111;
+    display:flex;
+    align-items: center;
+    padding: 0 10px;
+    margin: 0;
+}
+h4{
+    color:white;
+    margin-left: 10px;
+}
+.boxes{
+    background-color: white;
+    height: 420px;
+    width:377.6px;
+    position:absolute;
+}
+h3{
+    margin-left: 10px;  
+    text-align: center;
+}
+.text{
+    padding: 10px 15px 0 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:21px;
+}
+#image1{
+    top: 350px;
+    left:20px;
+}
+#image2{
+    top: 350px;
+    left:417.6px;
+}
+#image3{
+    top: 350px;
+    left:815.2px;
+}
+#image5{
+    background-color: white;
+    height: 150px;
+    width:245px;
+    position:absolute;
+    top: 350px;
+    left:1212.8px;
+}
+#image6{
+    background-color: white;
+    height: 260px;
+    width:245px;
+    position:absolute;
+    top: 510px;
+    left:1212.8px;
+}
+.pic{
+    height: 102.2px;
+    width:163.86px;
+    padding:20px;
+    position:relative; 
+}
+#pic1,#pic8,#pic12{
+top: -20px
+}
+#pic2,#pic9,#pic13{
+    top: -162px;
+    left: 183.86px;
+}
+#pic3,#pic10,#pic14{
+    top: -150px;
+}
+#pic4,#pic11,#pic15{
+    top: -293px;
+    left: 183.86px;
+}
+#block{
+    background-color: #EAEAEA;
+    width: 1490px;
+    height: 100px;
+}
+#button{
+    width: 300px;
+    height: 30px;
+    background-color:  #FFB347;
+    border: 1px solid #FFB347;
+    border-radius: 3px;
+    margin-left: 600px;
+    margin-top: -1000px;
+}
+#submit{
+    margin-bottom: -5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:21px;
+}
+#start{
+    text-align: center;
+}
+#buttons{
+    width: 200px;
+    height: 30px;
+    background-color:  #FFB347;
+    border: 1px solid #FFB347;
+    border-radius: 150px;
+    margin-left: 20px;
+}
+#pic16{
+   text-align: left;
+   padding: 0px -20px 0px 10px;
+   font-size: 12px;
+}
+#textss{
+    text-decoration:none;
+}
+#top{
+    width: 1490px;
+    height: 30px;
+    background-color:  #232F3E;
+}
+.hel{
+    color: white;
+    text-align:center;
+}
+#down{
+    background-color: #232F3E;
+    width: 1490px;
+    height: 350px;
+    margin-top: -20px;
+}
